@@ -6,27 +6,46 @@
   </head>
   <body>
     <div align="center">
-      <h4>ใบสมัครคัดเลือกพนักงาน ม.อ.</h4>
+      <h3><b>ใบสมัครคัดเลือกพนักงาน มหาวิทยาลัยสงขลานครินทร์</b></h3>
     </div>
+    <br />
   <form actiom="#" method="post">
   <div align="left">
     <Label for="txtposition"> ตำแหน่ง </label>
       <input type="text" name="txtposition" />
     </div>
+    <br />
     <div>
       <label for="txtorg">คณะหน่วยงานที่สมัคร</label>
       <input type="text" name="txtorg" /><br />
+    </div>
+    <br />
       <label for="txtsalary">เงินเดือนที่ต้องการ</label>
       <input type="text" name="txtsalary" />
-      <label for="txtanot">ลักษณะงาน</label>
-      <label for="fulltime">Fulltime</label>
-      <input type="checkbox" name="fulltime"/>
-      <label for="part-time">Part-time</label>
-      <input type="checkbox" name="part-time"/>
-    </div>
+      <label for="radioลักษณะงาน">ลักษณะงาน</label>
+      <input type="radio" name="ลักษณะงาน" value="Fulltime"/>Fulltime
+      <input type="radio" name="ลักษณะงาน" value="Parttime"/>Parttime
+     </div>
+    <p><h4><b>1.ข้อมูลทั่วไป</b></h4></p>
+    <br />
     <div>
-      <label for="txt">1.ข้อมูลทั่วไป</label>
-      <label for="txtno"
+      <label for="Id.no">เลขบัตรประชาชน</label>
+      <input type="tel" name="Id.no"/>
+    </div>
+    <br />
+    <div>
+      <label for="name">ชื่อ</label>
+      <input type="text" name="name"/>
+      <label for="surname">นามสกุล</label>
+      <input type="text" name="surname"/>
+    </div>
+    <br />
+    <div>
+      <label for="radioเพศ">เพศ</label>
+      <input type="radio" name="radioเพศ" value="ชาย"/>ชาย
+      <input type="radio" name="radioเพศ" value="หญิง"/>หญิง
+
+
   </form>
   </body>
 </html>
