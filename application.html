@@ -9,13 +9,14 @@
   </head>
   <div align="center">
   <img src="psu1.gif"/>
-</div>
+  </div>
   <body>
     <div align="center">
       <h3><b>ใบสมัครคัดเลือกพนักงาน มหาวิทยาลัยสงขลานครินทร์</b></h3>
     </div>
     <br />
-  <form actiom="#" method="post">
+  <form actiom="post" method="post">
+  <fieldset>
   <div align="left">
     <Label for="txtposition"> ตำแหน่ง </label>
       <input type="text" name="txtposition" />
@@ -32,7 +33,9 @@
       <input type="radio" name="ลักษณะงาน" value="Fulltime"/>Fulltime
       <input type="radio" name="ลักษณะงาน" value="Parttime"/>Part-time
      </div>
+   </fieldset>
      <br />
+     <fieldset>
     <p><h4><b><u>1.ข้อมูลทั่วไป</u></b></h4></p>
     <br />
     <div>
@@ -54,7 +57,7 @@
       <label for="brithday">วัน/เดือน/ปี เกิด</label>
       <input type="text" name="brithday"/>
       <label for="age">อายุ</label>
-      <input type="tel" name="age"/>&nbsp;ปี
+      <input type="tel" name="age" size="3"/>&nbsp;ปี
     </div>
      <br />
      <div>
@@ -63,7 +66,9 @@
       <label for="race1">สัญชาติ</label>
       <input type="text" name="race1"/>
      </div>
+   </fieldset>
      <br />
+     <fieldset>
     <p><h4><b><u>2.สถานที่ติดต่อได้สะดวก</u></b></h4></p>
     <br />
     <div>
@@ -77,8 +82,10 @@
       <input type="text" name="soi"/>
       <label for="road">ถนน</label>
       <input type="text" name="road"/>
+    </fieldset>
     </div>
     <br />
+    <fieldset>
     <p><h4><b><u>3.วุฒิการศึกษา</u></p></h4></b>
     <br />
     <div>
@@ -136,7 +143,9 @@
       <label for="grade">เกรดเฉลี่ย</label>
       <input type="tel" name="grade"/>
     </div>
+  </fieldset>
     <br />
+    <fieldset>
     <p><h4><b><u>4.ประวัติการทำงาน เรียงลำดับตามครั้งสุดท้ายไปหาครั้งแรก</u></b></h4></p>
     <div>
     <label for="place"><b>&nbsp;สถานที่ทำงานล่าสุด</b></label>
@@ -194,25 +203,27 @@
       <label for="money">เงินเดือน</label>
       <input type="tel" name="money"/>&nbsp;บาท
     </div>
+  </fieldset>
     <br />
+    <fieldset>
     <div>
     <p><h4><b><u>5.ภาษา</u></b></h4></p>
     </div>
     <div>
       <label for="eng"><b>ภาษาอังกฤษ    &nbsp;พูด</b></label>
-      <input type="radio" name="eng" value="ดีมาก"/>ดีมาก
-      <input type="radio" name="eng" value="ดี"/>ดี
-      <input type="radio" name="eng" value="พอใช้"/>พอใช้
+      <input type="checkbox" name="eng" value="ดีมาก"/>ดีมาก
+      <input type="checkbox" name="eng" value="ดี"/>ดี
+      <input type="checkbox" name="eng" value="พอใช้"/>พอใช้
       <br />
       <label for="eng"><b>ภาษาอังกฤษ    &nbsp;อ่าน</b></label>
-      <input type="radio" name="eng" value="ดีมาก"/>ดีมาก
-      <input type="radio" name="eng" value="ดี"/>ดี
-      <input type="radio" name="eng" value="พอใช้"/>พอใช้
+      <input type="checkbox" name="eng" value="ดีมาก"/>ดีมาก
+      <input type="checkbox" name="eng" value="ดี"/>ดี
+      <input type="checkbox" name="eng" value="พอใช้"/>พอใช้
       <br />
       <label for="eng"><b>ภาษาอังกฤษ    &nbsp;เขียน</b></label>
-      <input type="radio" name="eng" value="ดีมาก"/>ดีมาก
-      <input type="radio" name="eng" value="ดี"/>ดี
-      <input type="radio" name="eng" value="พอใช้"/>พอใช้
+      <input type="checkbox" name="eng" value="ดีมาก"/>ดีมาก
+      <input type="checkbox" name="eng" value="ดี"/>ดี
+      <input type="checkbox" name="eng" value="พอใช้"/>พอใช้
     </div>
     <br />
     <div>
@@ -220,21 +231,23 @@
     <input type="text" name="anot"/>
     <br />
     <label for="eng"><b>&nbsp;พูด</b></label>
-    <input type="radio" name="anot" value="ดีมาก"/>ดีมาก
-    <input type="radio" name="anot" value="ดี"/>ดี
-    <input type="radio" name="anot" value="พอใช้"/>พอใช้
+    <input type="checkbox" name="anot" value="ดีมาก"/>ดีมาก
+    <input type="checkbox" name="anot" value="ดี"/>ดี
+    <input type="checkbox" name="anot" value="พอใช้"/>พอใช้
     <br />
     <label for="eng"><b>&nbsp;อ่าน</b></label>
-    <input type="radio" name="anot" value="ดีมาก"/>ดีมาก
-    <input type="radio" name="anot" value="ดี"/>ดี
-    <input type="radio" name="anot" value="พอใช้"/>พอใช้
+    <input type="checkbox" name="anot" value="ดีมาก"/>ดีมาก
+    <input type="checkbox" name="anot" value="ดี"/>ดี
+    <input type="checkbox" name="anot" value="พอใช้"/>พอใช้
     <br />
     <label for="eng"><b>&nbsp;เขียน</b></label>
-    <input type="radio" name="anot" value="ดีมาก"/>ดีมาก
-    <input type="radio" name="anot" value="ดี"/>ดี
-    <input type="radio" name="anot" value="พอใช้"/>พอใช้
+    <input type="checkbox" name="anot" value="ดีมาก"/>ดีมาก
+    <input type="checkbox" name="anot" value="ดี"/>ดี
+    <input type="checkbox" name="anot" value="พอใช้"/>พอใช้
     </div>
+  </fieldset>
     <br />
+    <fieldset>
   <p><h4><b><u>6.ความรู้ทางคอมพิวเตอร</u>์</p></h4></b>
     <div>
       <label for="ความรู้">ความรู้ทางคอมพิวเตอร์&nbsp;</label>
@@ -257,7 +270,7 @@
 
 
 
-
+</fieldset>
     </form>
   </body>
 </html>
